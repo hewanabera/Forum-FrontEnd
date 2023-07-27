@@ -37,7 +37,7 @@ function App() {
       token: undefined,
       user: undefined,
     });
-    localStorage.setItem("auth-token", "");
+    localStorage.setItem("auth-token", "")
   };
   useEffect(() => {
     checkLoggedIn();
